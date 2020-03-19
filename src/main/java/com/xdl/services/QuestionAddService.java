@@ -19,17 +19,31 @@ public class QuestionAddService {
     public List<QuestionType> getAllQuestionType() {
         return questionTypeMapper.getAllQuestionType();
     }
+
     public int insertQuestion(Question question) {
-        return questionMapper.insertQuestion(
-                question.getDesccription(),
-                question.getQuestion_type_id(),
-                question.getPoints(),
-                question.getAnswer(),
-                question.getDifficulty(),
-                question.getAnalysis(),
-                question.getReference(),
-                question.getExaming_point(),
-                question.getKeyword()
-        );
+        return questionMapper.insertQuestion(question);
+    }
+
+    public int insertQuestion_2_point(Question question){
+        int status = 0;
+        for (int i = 0; i < question.getPointList().size(); i++) {
+            status = questionMapper.insertQuestion_2_point(question.getId(), question.getPointList().get(i));
+            if (status == 0) {
+                return 0;
+            }
+        }
+        return 1;
+    }
+
+    public int insertQuestion_2_option(Question question) {
+        int status = 0;
+        String [] optionName = {"A", "B", "C", "D"};
+        for (int i = 0; i < question.getOptions().size(); i++) {
+            status = questionMapper.insertQuestion_2_option(question.getId(), optionName[i], question.getOptions().get(i));
+            if (status == 0) {
+                return 0;
+            }
+        }
+        return 1;
     }
 }

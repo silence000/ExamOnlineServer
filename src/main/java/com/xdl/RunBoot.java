@@ -1,5 +1,6 @@
 package com.xdl;
 
+import com.xdl.mapper.QuestionMapper;
 import com.xdl.mapper.UserMapper;
 import org.junit.jupiter.api.Test;
 import org.mybatis.spring.annotation.MapperScan;
@@ -17,5 +18,7 @@ public class RunBoot {
     public void Test() {
         ApplicationContext applicationContext = SpringApplication.run(RunBoot.class);
         UserMapper userMapper = applicationContext.getBean(UserMapper.class);
+        QuestionMapper questionMapper = applicationContext.getBean(QuestionMapper.class);
+        System.out.println(questionMapper.getRandomQuestionByQuestion_typeAndNumber(1, 2));
     }
 }

@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="504596d0-d92e-4c3d-935f-03c68bba627c" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/spc11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/bean/KnowledgePoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/bean/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/bean/QuestionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/controller/PointManageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/controller/QuestionAddController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/mapper/KnowledgePointMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/mapper/QuestionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/mapper/QuestionTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/services/PointManageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/services/QuestionAddService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/bean/Paper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/bean/PaperCreateParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/controller/PaperAddController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/mapper/PaperMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xdl/services/PaperAddService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/xdl/services/LoginRegisterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xdl/services/LoginRegisterService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/xdl/services/LoginRegisterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xdl/services/LoginRegisterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xdl/RunBoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xdl/RunBoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xdl/bean/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xdl/bean/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xdl/controller/QuestionAddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xdl/controller/QuestionAddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xdl/mapper/QuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xdl/mapper/QuestionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xdl/services/QuestionAddService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xdl/services/QuestionAddService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ExamOnlineServer.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xdl/RunBoot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xdl/RunBoot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xdl/bean/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xdl/bean/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xdl/controller/QuestionAddController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xdl/controller/QuestionAddController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xdl/mapper/QuestionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xdl/mapper/QuestionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xdl/services/QuestionAddService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xdl/services/QuestionAddService.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -149,7 +152,7 @@
       <workItem from="1584301381163" duration="1534000" />
       <workItem from="1584303603264" duration="14891000" />
       <workItem from="1584377199565" duration="28424000" />
-      <workItem from="1584458878390" duration="3493000" />
+      <workItem from="1584458878390" duration="45043000" />
     </task>
     <servers />
   </component>

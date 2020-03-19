@@ -24,11 +24,12 @@ public class Question implements Serializable {
     private String examing_point;
     private String keyword;
     private List<Integer> pointList;
+    private List<String> options;
 
     public Question() {
     }
 
-    public Question(Integer id, String desccription, Integer question_type_id, Integer points, Integer group_id, Integer is_visible, Timestamp create_time, String creator, Timestamp last_modify, String answer, Integer expose_times, Integer right_times, Integer wrong_times, Double difficulty, String analysis, String reference, String examing_point, String keyword, List<Integer> pointList) {
+    public Question(Integer id, String desccription, Integer question_type_id, Integer points, Integer group_id, Integer is_visible, Timestamp create_time, String creator, Timestamp last_modify, String answer, Integer expose_times, Integer right_times, Integer wrong_times, Double difficulty, String analysis, String reference, String examing_point, String keyword, List<Integer> pointList, List<String> options) {
         this.id = id;
         this.desccription = desccription;
         this.question_type_id = question_type_id;
@@ -48,6 +49,7 @@ public class Question implements Serializable {
         this.examing_point = examing_point;
         this.keyword = keyword;
         this.pointList = pointList;
+        this.options = options;
     }
 
     @Override
@@ -72,7 +74,16 @@ public class Question implements Serializable {
                 ", examing_point='" + examing_point + '\'' +
                 ", keyword='" + keyword + '\'' +
                 ", pointList=" + pointList +
+                ", options=" + options +
                 '}';
+    }
+
+    public List<String> getOptions() {
+        return options;
+    }
+
+    public void setOptions(List<String> options) {
+        this.options = options;
     }
 
     public Integer getId() {
